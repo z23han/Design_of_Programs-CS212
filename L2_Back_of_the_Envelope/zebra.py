@@ -46,3 +46,4 @@ def instrument_fn(fn, *args):
     result = fn(*args)
     print('%s got %s with %5d iters over %7d items'%(
         fn.__name__, result, c.starts, c.items))
+
